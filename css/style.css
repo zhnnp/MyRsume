@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Public Star*/
+html,body,div,ul,li{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	overflow-x:hidden;
+}
+
+li{
+	list-style:none;
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+}
+
+a{
+	text-decoration:none;
+}
+img{
+	width:100%;
+	height:100%;
+}
+
+/* -Public End*/
+
+/*header Star*/
+.header{
+
+}
+.header-floor-z1,.header-floor-z2,.header-floor-z3,.header-floor-z4,.header-floor-z5{
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+}
+
+.header-floor-z1{
+	z-index:10;
+}
+.header-floor-z2{
+	z-index:11;	
+}
+.header-floor-z3{
+	z-index:12;
+	opacity:0.7;
+	transition-duration:2s;
+	background:-ms-linear-gradient(top,#000,#00F);
+	background:-moz-linear-gradient(top,#000,#00F);
+	background:-webkit-linear-gradient(top,#000,#00F);
+	background:-o-linear-gradient(top,#000,#00F);
+}
+.header-floor-z4{
+	z-index:13;
+}
+.header-content-container{
+	width:0px;
+    height:0px;
+	border-left: 670px solid transparent;
+    border-right: 670px solid transparent;
+    border-top: 300px solid #C30;
+	opacity:0.8;
+
+}
+
+/*header End*/
+
+
+/*github Star*/
+.to-github{
+	width:350px;
+	height:50px;
+	background-color:#000;
+	opacity:0.4;
+	transform: rotate(-40deg);
+	top:59px;
+	left:-60px;
+	padding-top:1px;
+	position:fixed;
+	cursor:pointer;
+	z-index:9;
+	transition-duration:500ms;
+}
+.to-github:hover{
+	opacity:0.9;
+}
+.to-github div{
+	width:100%;
+	height:31px;
+	margin:7px 0px;
+	border:dashed #CCC 2px;
+	line-height:31px;
+	text-align:center;
+	vertical-align:middle;
+}
+.to-github div span{
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	font-family:"仿宋";
+}
+/* -github End*/
+
+/*main Star*/
+.mian{
+	background-color:#CCC;
+	padding-top:1px;
+}
+
+/*page public star*/
+.page-main{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+}
+.page-main-top{
+	width:100%;
+	height:25%;
+	padding-top:1px;
+}
+.page-main-content{
+	width:100%;
+	height:75%;
+	padding-top:1px;
+}
+.page-main-title{
+	width:400px;
+	height:100px;
+	margin:30px auto;
+	line-height:100px;
+	text-align:center;
+	vertical-align:middle;
+}
+.page-main-title span{
+	font-size:4em;
+	color:#FFF;
+	font-family:"Microsoft YaHei";
+}
+.page1,.page2,.page3,.page4{
+	width:100%;
+	height:25%;
+	overflow:hidden;
+}
+/* -page public End*/
+
+/*page1 Star*/
+.page1{
+	background-color:#1E90FF;
+}
+/*page1 End*/
+
+
+
+/*page2 Star*/
+.page2{
+	background-color:#9C58B6;
+}
+.page2-contents{
+	width:210px;
+	margin:5% 2.5%;
+	float:left;
+	
+}
+.page2-contents-title{
+	border-radius:6px;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#FFF;
+}
+.page2-contents-title span{
+	font-size:20px;
+	font-weight:bold;
+	color:#9C58B6;
+	font-family:"Microsoft YaHei";
+}
+.page2-contents-main{
+	width:206px;
+	margin-top:-4px;
+}
+
+.page2-contents-bg{
+	width:206px;
+	position:absolute;
+	z-index:1;
+	background-color:#9C58B6;
+	overflow:hidden;
+}
+.page2-contents-bg div{
+	width:0px;
+	height:40px;
+	transition-duration:800ms;
+	border-radius:20px;
+	margin-left:-15px;
+	line-height:40px;
+	text-align:right;
+	vertical-align:middle;
+    background:-ms-linear-gradient(left,#FFF,#F60);
+	background:-moz-linear-gradient(left,#FFF,#F60);
+	background:-webkit-linear-gradient(left,#FFF,#F60);
+	background:-o-linear-gradient(left,#FFF,#F60);
+}
+.page2-contents-bg div span{
+	color:#FFF;
+	font-size:14px;
+	display:block;
+	margin-right:5px;
+	font-family:"Microsoft YaHei";
+}
+.page2-contents-element{
+	width:206px;
+	z-index:2;
+	position:absolute;
+	border:solid #FFF 2px;
+}
+.page2-contents-element div{
+	width:100%;
+	height:40px;
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	line-height:40px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	transition-duration:500ms;
+}
+/*page2 End*/
+
+/*page3 Star*/
+.page3{
+	background-color:#FA8072;
+}
+/*page3 End*/
+
+/*page4 Star*/
+.page4{
+	background-color:#2E8B57;
+}
+/*page4 End*/
